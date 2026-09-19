@@ -44,6 +44,22 @@ Infrastructure  Docker • PostgreSQL • Linux • Git • Maven • PowerShell
 
 <br />
 
+## Activity & Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=codebug53&theme=github-dark&bg_color=0b0d13&color=ff4d4d&line=38bdf8&point=ff4d4d&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+</p>
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution City" />
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codebug53/codebug53/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Grid" />
+</div>
+
+<br />
+
 ## Analytics
 
 <p align="center">
