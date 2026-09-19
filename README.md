@@ -4,96 +4,65 @@
 
 <br />
 
-### 👋 About Me
+## About
 
-I am a **Software Engineer** passionate about building high-performance backend systems, distributed microservices, and next-generation cloud developer tools.
+Software Engineer specializing in high-performance backend architecture, distributed microservices, and modern cloud development environments.
 
-- ⚙️ **Core Focus**: High-concurrency backend services, containerized execution engines, and cloud IDE platforms.
-- 🚀 **Currently Building**: [RenKairo IDE](https://github.com/codebug53) — A cloud development environment with live container provisioning and Monaco editor integration.
-- 🐳 **System Infrastructure**: Architecting [Shiro](https://github.com/codebug53) — A high-throughput isolated code execution engine using Docker sandboxes.
-- 🛠️ **Tech Stack**: Java (Spring Boot), TypeScript, React, Docker, PostgreSQL, WebSockets.
-
-<br />
-
----
-
-### ⚡ Selected Work
-
-```
-┌── [01] RENKAIRO CLOUD IDE ─────────────────────────────────────────────────────────────┐
-│    Fullstack cloud development platform featuring dynamic container provisioning,      │
-│    live Monaco Editor integration, WebSocket SSH terminal, and AI assistance.           │
-│    Tech: React • TypeScript • Spring Boot 3 • WebSockets • Docker                     │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-
-┌── [02] SHIRO EXECUTION ENGINE ─────────────────────────────────────────────────────────┐
-│    Distributed microservice for executing code securely inside isolated Docker        │
-│    containers with strict CPU & memory resource limits.                                │
-│    Tech: Java 21 • Spring Boot • Docker API • Linux CGroups                            │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-
-┌── [03] BLOG INSTALLER PLATFORM ────────────────────────────────────────────────────────┐
-│    Modular web application installer enabling rapid fullstack blogging platform        │
-│    deployment and automated configuration management.                                  │
-│    Tech: React • Vite • Node.js • Tailwind CSS                                         │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+* **Systems Engineering**: Building high-concurrency backend services and isolated code execution runtimes.
+* **Cloud Platforms**: Architecting RenKairo IDE with live container provisioning and real-time Monaco editor integration.
+* **Infrastructure**: Developing Shiro Engine for secure, containerized sandbox code execution.
 
 <br />
 
----
+## Projects
 
-### 🛠️ Tech Stack
+### RenKairo Cloud IDE
+Fullstack cloud development platform featuring dynamic container provisioning, live Monaco Editor integration, WebSocket SSH terminal sessions, and AI copilot support.
+* **Stack**: React, TypeScript, Spring Boot 3, WebSockets, Docker
 
-<div align="center">
+### Shiro Execution Engine
+Distributed microservice engineered for executing code securely inside isolated Docker containers with strict CPU and memory resource bounds.
+* **Stack**: Java 21, Spring Boot, Docker API, Linux CGroups
 
-```
-   [ Backend ]     Java 21  │  Spring Boot 3  │  Node.js  │  REST APIs  │  WebSockets
-   [ Frontend ]    TypeScript  │  React  │  Vite  │  Tailwind CSS  │  Monaco Editor
-   [ Infra & DB ]  Docker  │  PostgreSQL  │  Linux  │  Git  │  Maven  │  PowerShell
-```
+### Blog Installer Platform
+Modular web application installer enabling rapid fullstack deployment and automated configuration management.
+* **Stack**: React, Vite, Node.js, Tailwind CSS
+
+<br />
+
+## Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,ts,react,tailwind,docker,postgres,git&theme=dark" alt="Tech Stack Icons" />
 </p>
 
-</div>
+```
+Backend         Java 21 • Spring Boot 3 • Node.js • REST APIs • WebSockets
+Frontend        TypeScript • React • Vite • Tailwind CSS • Monaco Editor
+Infrastructure  Docker • PostgreSQL • Linux • Git • Maven • PowerShell
+```
+
+<br />
+
+## Analytics
+
+<p align="center">
+  <a href="https://github.com/codebug53">
+    <img src="https://github-readme-stats.vercel.app/api?username=codebug53&show_icons=true&theme=dark&bg_color=0b0d13&title_color=ff4d4d&icon_color=38bdf8&text_color=cbd5e1&border_color=1e2330" width="48%" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/codebug53">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codebug53&layout=compact&theme=dark&bg_color=0b0d13&title_color=ff4d4d&icon_color=38bdf8&text_color=cbd5e1&border_color=1e2330" width="48%" alt="Top Languages" />
+  </a>
+</p>
 
 <br />
 
 ---
 
-### 📈 Activity & Telemetry
-
 <div align="center">
-
-  <table border="0" width="100%">
-    <tr>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=codebug53&show_icons=true&theme=dark&bg_color=0B0D13&title_color=FF4D4D&icon_color=38BDF8&text_color=CBD5E1&border_color=1E2330&count_private=true" fill="width" width="98%" alt="GitHub Stats" />
-      </td>
-      <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codebug53&layout=compact&theme=dark&bg_color=0B0D13&title_color=FF4D4D&icon_color=38BDF8&text_color=CBD5E1&border_color=1E2330&hide=html,css" fill="width" width="98%" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-
-</div>
-
-<br />
-
----
-
-### 📬 Connect
-
-<div align="center">
-
   <p>
-    <a href="https://github.com/codebug53"><b>GitHub</b></a> &nbsp;•&nbsp;
-    <a href="mailto:azhar@renkairo.dev"><b>Email</b></a> &nbsp;•&nbsp;
-    <a href="https://linkedin.com"><b>LinkedIn</b></a>
+    <a href="https://github.com/codebug53">GitHub</a> &nbsp;•&nbsp;
+    <a href="mailto:azhar@renkairo.dev">Email</a> &nbsp;•&nbsp;
+    <a href="https://linkedin.com">LinkedIn</a>
   </p>
-
-  <sub><code>RENKAIRO SYSTEM // MINIMALIST DESIGN SYSTEM</code></sub>
-
 </div>
