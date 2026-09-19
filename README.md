@@ -1,66 +1,73 @@
 <div align="center">
 
-  <!-- RenKairo IDE Header Window Bar -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0B0D11&height=220&section=header&text=Mahammad%20Azhar&fontSize=42&fontColor=FF4D4D&animation=twinkling&desc=%E2%9A%A1%20Architecting%20High-Performance%20Backends%20%26%20Next-Gen%20Developer%20Tools%20%7C%20@codebug53&descSize=16&descAlignY=66&descColor=38BDF8" width="100%" alt="Header Banner" />
+  <!-- Interactive Custom RenKairo IDE Window Header SVG -->
+  <img src="./assets/ide-header.svg" width="100%" alt="RenKairo IDE Window Mockup" />
 
+  <br /><br />
+
+  <!-- Status Pill Badges -->
   <p align="center">
-    <a href="https://github.com/codebug53"><img src="https://img.shields.io/badge/IDE_Status-ACTIVE_SESSION-10B981?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="IDE Active" /></a>
-    <a href="https://github.com/codebug53"><img src="https://img.shields.io/badge/Theme-RENKAIRO_DARK-FF4D4D?style=for-the-badge&logo=cyberdefenders&logoColor=white" alt="RenKairo Theme" /></a>
-    <a href="https://github.com/codebug53"><img src="https://img.shields.io/badge/Core-JAVA%20%7C%20TS%20%7C%20REACT-38BDF8?style=for-the-badge&logo=react&logoColor=white" alt="Core Tech Stack" /></a>
+    <a href="https://github.com/codebug53"><img src="https://img.shields.io/badge/DEVELOPER_STATUS-ONLINE_%2F_BUILDING-10B981?style=for-the-badge&logo=powerpages&logoColor=white" alt="Status" /></a>
+    <a href="https://github.com/codebug53"><img src="https://img.shields.io/badge/THEME-RENKAIRO_CYBER_DARK-FF4D4D?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Theme" /></a>
+    <a href="https://github.com/codebug53"><img src="https://img.shields.io/badge/PRIMARY-JAVA_21_%7C_TYPESCRIPT-38BDF8?style=for-the-badge&logo=openjdk&logoColor=white" alt="Primary Stack" /></a>
   </p>
 
 </div>
 
 <br />
 
-```typescript
-// ─── [ RENKAIRO IDE ] : ~/workspace/codebug53/profile.config.ts ────────────────
-export const developerProfile = {
-  name: "Mahammad Azhar",
-  handle: "@codebug53",
-  status: "Building Scalable Systems & Next-Gen IDE Experience 🚀",
-  location: "India 🇮🇳",
-  
-  coreCapabilities: [
-    "High-Concurrency Microservices & Backend Systems",
-    "Distributed Code Execution Engines & Container Isolation",
-    "Modern Reactive UI Design Systems & IDE Architecture",
-    "Cloud Native Infrastructure & REST/gRPC API Systems"
-  ],
+### ⚡ System Architecture Topology
 
-  activeWorkspace: {
-    ide: "RenKairo IDE (Fullstack Cloud Developer Suite)",
-    engine: "Shiro Execution Engine (Isolated Sandbox)",
-    frontend: "Rekairo-UI (Cyber Glassmorphism & Monaco Editor)"
-  }
-};
-```
+<p align="center">
+  <img src="./assets/system-architecture.svg" width="100%" alt="RenKairo Platform & Shiro Execution Engine Architecture" />
+</p>
 
 <br />
 
 ---
 
-### ⚡ Active Workspace & Key Projects
+### 🚀 Flagship Systems & Projects
 
-<table width="100%">
+<table width="100%" border="0">
   <tr>
     <td width="50%" valign="top">
-      <h4 align="left">🚀 RenKairo IDE & Rekairo UI</h4>
-      <p>Next-generation, browser-based cloud IDE featuring a dark cyber aesthetic, dynamic workspace management, real-time Monaco editor integration, and live code diagnostics.</p>
+      <h3 align="left">⚡ RenKairo Cloud IDE</h3>
+      <p>A fullstack browser-based cloud development environment designed for high efficiency, complete with dynamic container provisioning, live Monaco Editor integration, WebSocket SSH terminal, and an AI copilot assistant.</p>
       <p>
-        <img src="https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tailwind-Cyber_Theme-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white" />
-        <img src="https://img.shields.io/badge/Monaco_Editor-Integrated-FF4D4D?style=flat-square" />
+        <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=spring-boot&logoColor=white" />
+        <img src="https://img.shields.io/badge/WebSockets-FF4D4D?style=flat-square" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4 align="left">⚙️ Shiro Backend Engine</h4>
-      <p>Secure, high-throughput code execution engine powering multi-language runtime sandbox execution with strict resource limits and automated testing workflows.</p>
+      <h3 align="left">🐳 Shiro Execution Sandbox</h3>
+      <p>Distributed microservice dedicated to secure, high-throughput code execution inside isolated Docker containers with memory/CPU CGroups enforcement and real-time logs streaming.</p>
       <p>
-        <img src="https://img.shields.io/badge/Java-Spring_Boot_3-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/Docker-Containers-2496ED?style=flat-square&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Architecture-Microservices-10B981?style=flat-square" />
+        <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker_Engine-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/gRPC-38BDF8?style=flat-square" />
+        <img src="https://img.shields.io/badge/Security_Sandbox-10B981?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">🛠️ Blog Installer Platform</h3>
+      <p>Modern modular content deployment tool built with React, Vite, and Node.js for zero-config fullstack deployment and automated installation management.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">🌐 Microservices Ecosystem</h3>
+      <p>Production-ready backend microservices leveraging PostgreSQL multi-tenancy, JWT auth stateless token management, and SSH web tunnels.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" />
+        <img src="https://img.shields.io/badge/REST_APIs-A855F7?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -70,21 +77,29 @@ export const developerProfile = {
 
 ---
 
-### 🛠️ Tech Stack & Command Registry
+### 📊 System Capability Telemetry
+
+<p align="center">
+  <img src="./assets/system-metrics.svg" width="100%" alt="System Metrics and Skill Telemetry" />
+</p>
+
+<br />
+
+---
+
+### 🛠️ Technology Stack & Matrix
 
 <div align="center">
 
-```
- ┌── [ BACKEND & SYSTEMS ] ───────────────────────────────────────────────────────────┐
- │  Java  •  Spring Boot  •  Node.js  •  REST APIs  •  Microservices  •  PostgreSQL   │
- └────────────────────────────────────────────────────────────────────────────────────┘
- ┌── [ FRONTEND & UI ENGINE ] ────────────────────────────────────────────────────────┐
- │  TypeScript  •  React.js  •  Vite  •  Tailwind CSS  •  Monaco Editor  •  HTML5/CSS3 │
- └────────────────────────────────────────────────────────────────────────────────────┘
- ┌── [ DEVOPS & INFRASTRUCTURE ] ─────────────────────────────────────────────────────┐
- │  Docker  •  Git / GitHub  •  Maven  •  PowerShell  •  Linux / Bash  •  CI/CD       │
- └────────────────────────────────────────────────────────────────────────────────────┘
-```
+| Domain | Technologies |
+| :--- | :--- |
+| **Languages & Runtimes** | `Java 21` • `TypeScript` • `JavaScript (ES6+)` • `SQL` • `HTML5 / CSS3` |
+| **Backend & Microservices** | `Spring Boot 3` • `Spring Security` • `Node.js` • `RESTful APIs` • `WebSockets` • `gRPC` |
+| **Frontend & UI Systems** | `React.js` • `Vite` • `Tailwind CSS` • `Monaco Editor` • `Glassmorphism Design Systems` |
+| **Databases & Storage** | `PostgreSQL` • `Redis` • `Hibernate / JPA` |
+| **DevOps & Containers** | `Docker` • `Git / GitHub` • `Maven` • `PowerShell` • `Linux (Ubuntu/Debian)` |
+
+<br />
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
@@ -103,7 +118,7 @@ export const developerProfile = {
 
 ---
 
-### 📊 System Telemetry & GitHub Analytics
+### 📈 GitHub Analytics & Activity Stream
 
 <div align="center">
 
@@ -128,24 +143,47 @@ export const developerProfile = {
 
 ---
 
-### 📬 Command Palette / Connect
+### 💻 RenKairo Terminal CLI
+
+```bash
+azhar@renkairo-os:~$ info --user codebug53
+[INFO] User: Mahammad Azhar
+[INFO] Core Expertise: Java Backend Engineering, High-Performance Microservices, Modern Web IDE UI
+[INFO] Currently Building: RenKairo IDE & Shiro Execution Sandbox
+[INFO] Open for: High-impact software engineering roles & backend system projects
+
+azhar@renkairo-os:~$ ping -c 3 azhar@renkairo.dev
+64 bytes from azhar@renkairo.dev: icmp_seq=1 ttl=64 time=0.042 ms
+64 bytes from azhar@renkairo.dev: icmp_seq=2 ttl=64 time=0.038 ms
+64 bytes from azhar@renkairo.dev: icmp_seq=3 ttl=64 time=0.035 ms
+--- azhar@renkairo.dev ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 0ms
+```
+
+<br />
+
+---
+
+### 📬 Connect & Command Palette
 
 <div align="center">
 
-  <p>Looking to collaborate on high-performance backends, cloud IDE tooling, or full-stack innovations?</p>
+  <p align="center">
+    Want to discuss distributed systems, cloud IDE development, or software engineering opportunities?
+  </p>
 
   <a href="https://github.com/codebug53">
     <img src="https://img.shields.io/badge/GitHub-codebug53-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="mailto:azhar@renkairo.dev">
-    <img src="https://img.shields.io/badge/Email-Get_In_Touch-FF4D4D?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-Contact_Azhar-FF4D4D?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://linkedin.com">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 
   <br /><br />
-
-  <sub><code>RENKAIRO-IDE // SESSION_TERMINAL: READY // BUILD_STATUS: PASSING</code></sub>
+  
+  <sub><code>RENKAIRO-IDE // SESSION: STABLE // SYSTEM_HEALTH: 100%</code></sub>
 
 </div>

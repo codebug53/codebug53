@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0D11" />
+      <stop offset="100%" stop-color="#12151C" />
+    </linearGradient>
+
+    <linearGradient id="coralProgress" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4D4D" />
+      <stop offset="100%" stop-color="#FF6666" />
+    </linearGradient>
+
+    <linearGradient id="cyanProgress" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#7DD3FC" />
+    </linearGradient>
+
+    <linearGradient id="emeraldProgress" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+
+    <linearGradient id="purpleProgress" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#C084FC" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+  </style>
+
+  <!-- Frame -->
+  <rect x="2" y="2" width="896" height="236" rx="10" fill="url(#cardBg2)" stroke="#232734" stroke-width="2"/>
+
+  <!-- Title Bar -->
+  <text x="25" y="32" class="font-mono" font-size="14" font-weight="700" fill="#38BDF8">📊 SYSTEM METRICS &amp; SKILL CAPABILITY TELEMETRY</text>
+  <text x="875" y="32" class="font-mono" font-size="11" fill="#64748B" text-anchor="end">LIVE PERFORMANCE // DIAGNOSTICS</text>
+  <line x1="25" y1="45" x2="875" y2="45" stroke="#232734" stroke-width="1" />
+
+  <!-- Metric 1: Java & Microservices -->
+  <g transform="translate(25, 65)">
+    <text x="0" y="15" class="font-mono" font-size="12" fill="#F1F5F9" font-weight="600">Java 21 / Spring Boot 3 / Microservices Architecture</text>
+    <text x="850" y="15" class="font-mono" font-size="12" fill="#FF4D4D" font-weight="bold" text-anchor="end">94% OPTIMIZED</text>
+    <rect x="0" y="24" width="850" height="10" rx="5" fill="#181B24" stroke="#232734" stroke-width="1"/>
+    <rect x="0" y="24" width="799" height="10" rx="5" fill="url(#coralProgress)" />
+  </g>
+
+  <!-- Metric 2: TypeScript & Modern Frontend -->
+  <g transform="translate(25, 110)">
+    <text x="0" y="15" class="font-mono" font-size="12" fill="#F1F5F9" font-weight="600">TypeScript / React / Monaco Editor / Glassmorphism UI</text>
+    <text x="850" y="15" class="font-mono" font-size="12" fill="#38BDF8" font-weight="bold" text-anchor="end">90% OPTIMIZED</text>
+    <rect x="0" y="24" width="850" height="10" rx="5" fill="#181B24" stroke="#232734" stroke-width="1"/>
+    <rect x="0" y="24" width="765" height="10" rx="5" fill="url(#cyanProgress)" />
+  </g>
+
+  <!-- Metric 3: Docker & Code Sandboxing -->
+  <g transform="translate(25, 155)">
+    <text x="0" y="15" class="font-mono" font-size="12" fill="#F1F5F9" font-weight="600">Docker Sandbox / Container Security / Linux Isolated Runtime</text>
+    <text x="850" y="15" class="font-mono" font-size="12" fill="#10B981" font-weight="bold" text-anchor="end">88% OPTIMIZED</text>
+    <rect x="0" y="24" width="850" height="10" rx="5" fill="#181B24" stroke="#232734" stroke-width="1"/>
+    <rect x="0" y="24" width="748" height="10" rx="5" fill="url(#emeraldProgress)" />
+  </g>
+
+  <!-- Metric 4: Distributed Systems & DB -->
+  <g transform="translate(25, 200)">
+    <text x="0" y="15" class="font-mono" font-size="12" fill="#F1F5F9" font-weight="600">PostgreSQL / WebSockets / REST API Design / System Engineering</text>
+    <text x="850" y="15" class="font-mono" font-size="12" fill="#A855F7" font-weight="bold" text-anchor="end">92% OPTIMIZED</text>
+    <rect x="0" y="24" width="850" height="10" rx="5" fill="#181B24" stroke="#232734" stroke-width="1"/>
+    <rect x="0" y="24" width="782" height="10" rx="5" fill="url(#purpleProgress)" />
+  </g>
+</svg>
