@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="100%">
+  <defs>
+    <!-- Dark Palette -->
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="60%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#090D12" />
+    </linearGradient>
+
+    <radialGradient id="cyanGlow" cx="85%" cy="25%" r="60%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#FF4D4D" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .sans { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect width="900" height="240" rx="10" fill="url(#heroBg)" stroke="#30363D" stroke-width="1.5" />
+  <rect width="900" height="240" rx="10" fill="url(#cyanGlow)" />
+  <rect x="0" y="0" width="900" height="3" rx="1" fill="url(#accentLine)" />
+
+  <!-- Terminal Window Controls -->
+  <circle cx="28" cy="24" r="5" fill="#FF4D4D" opacity="0.8" />
+  <circle cx="44" cy="24" r="5" fill="#F59E0B" opacity="0.8" />
+  <circle cx="60" cy="24" r="5" fill="#10B981" opacity="0.8" />
+  <text x="85" y="28" class="mono" font-size="11" fill="#6E7681">azhar@vitap:~ / portfolio-v2.0</text>
+
+  <!-- Main Title & Tagline -->
+  <text x="50" y="90" class="sans" font-size="34" font-weight="800" letter-spacing="3" fill="url(#titleGradient)">MAHAMMAD AZHAR</text>
+  
+  <text x="50" y="124" class="sans" font-size="16" font-weight="600" fill="#38BDF8">
+    Building systems, breaking problems.
+  </text>
+
+  <text x="50" y="156" class="mono" font-size="12" fill="#8B949E">
+    CSE @ VIT-AP University ('27)  •  Backend &amp; Distributed Systems Engineer
+  </text>
+
+  <!-- Quick Info Pills -->
+  <g transform="translate(50, 185)">
+    <rect x="0" y="0" width="130" height="24" rx="4" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <text x="12" y="16" class="mono" font-size="10" fill="#38BDF8">JAVA &amp; SPRING BOOT</text>
+
+    <rect x="140" y="0" width="115" height="24" rx="4" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <text x="152" y="16" class="mono" font-size="10" fill="#E2E8F0">MICROSERVICES</text>
+
+    <rect x="265" y="0" width="145" height="24" rx="4" fill="#21262D" stroke="#30363D" stroke-width="1" />
+    <text x="277" y="16" class="mono" font-size="10" fill="#10B981">CLOUD INFRASTRUCTURE</text>
+  </g>
+
+  <!-- System Circuit Graphic (Right Side) -->
+  <g transform="translate(640, 50)" opacity="0.75">
+    <!-- Grid Wire Nodes -->
+    <rect x="0" y="0" width="210" height="150" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    
+    <!-- Central Node -->
+    <circle cx="105" cy="75" r="22" fill="#0D1117" stroke="#38BDF8" stroke-width="2" />
+    <text x="105" y="79" class="mono" font-size="9" fill="#38BDF8" text-anchor="middle">AZHAR</text>
+
+    <!-- Satellite Nodes -->
+    <circle cx="45" cy="40" r="10" fill="#0D1117" stroke="#818CF8" stroke-width="1.5" />
+    <text x="45" y="43" class="mono" font-size="7" fill="#818CF8" text-anchor="middle">SPRING</text>
+
+    <circle cx="165" cy="40" r="10" fill="#0D1117" stroke="#10B981" stroke-width="1.5" />
+    <text x="165" y="43" class="mono" font-size="7" fill="#10B981" text-anchor="middle">DOCKER</text>
+
+    <circle cx="45" cy="110" r="10" fill="#0D1117" stroke="#F59E0B" stroke-width="1.5" />
+    <text x="45" y="113" class="mono" font-size="7" fill="#F59E0B" text-anchor="middle">REACT</text>
+
+    <circle cx="165" cy="110" r="10" fill="#0D1117" stroke="#FF4D4D" stroke-width="1.5" />
+    <text x="165" y="113" class="mono" font-size="7" fill="#FF4D4D" text-anchor="middle">K8S</text>
+
+    <!-- Connecting Wires -->
+    <line x1="63" y1="52" x2="87" y2="63" stroke="#818CF8" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="147" y1="52" x2="123" y2="63" stroke="#10B981" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="63" y1="98" x2="87" y2="87" stroke="#F59E0B" stroke-width="1" stroke-dasharray="2,2" />
+    <line x1="147" y1="98" x2="123" y2="87" stroke="#FF4D4D" stroke-width="1" stroke-dasharray="2,2" />
+  </g>
+</svg>
