@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="metricsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#161B22" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .sans { font-family: 'Inter', system-ui, sans-serif; }
+  </style>
+
+  <rect width="900" height="180" rx="8" fill="url(#metricsBg)" stroke="#30363D" stroke-width="1.5" />
+
+  <!-- Title Bar -->
+  <text x="30" y="35" class="mono" font-size="12" fill="#38BDF8" font-weight="bold">SYSTEM TELEMETRY &amp; ARCHITECTURE METRICS</text>
+  <line x1="30" y1="48" x2="870" y2="48" stroke="#30363D" stroke-width="1" />
+
+  <!-- Metric 1: Core Stack -->
+  <g transform="translate(30, 65)">
+    <rect width="195" height="90" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="15" y="25" class="sans" font-size="11" fill="#8B949E">PRIMARY RUNTIMES</text>
+    <text x="15" y="52" class="mono" font-size="16" fill="#F1F5F9" font-weight="bold">Java &amp; Spring</text>
+    <text x="15" y="72" class="mono" font-size="11" fill="#10B981">● Enterprise Ready</text>
+  </g>
+
+  <!-- Metric 2: Cloud Infra -->
+  <g transform="translate(245, 65)">
+    <rect width="195" height="90" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="15" y="25" class="sans" font-size="11" fill="#8B949E">ORCHESTRATION</text>
+    <text x="15" y="52" class="mono" font-size="16" fill="#F1F5F9" font-weight="bold">Docker &amp; K8s</text>
+    <text x="15" y="72" class="mono" font-size="11" fill="#38BDF8">● Containerized</text>
+  </g>
+
+  <!-- Metric 3: Database & Storage -->
+  <g transform="translate(460, 65)">
+    <rect width="195" height="90" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="15" y="25" class="sans" font-size="11" fill="#8B949E">DATA LAYER</text>
+    <text x="15" y="52" class="mono" font-size="16" fill="#F1F5F9" font-weight="bold">Postgres &amp; Redis</text>
+    <text x="15" y="72" class="mono" font-size="11" fill="#818CF8">● High Availability</text>
+  </g>
+
+  <!-- Metric 4: Dev Tooling -->
+  <g transform="translate(675, 65)">
+    <rect width="195" height="90" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <text x="15" y="25" class="sans" font-size="11" fill="#8B949E">AUTOMATION</text>
+    <text x="15" y="52" class="mono" font-size="16" fill="#F1F5F9" font-weight="bold">Git &amp; CI/CD</text>
+    <text x="15" y="72" class="mono" font-size="11" fill="#FF4D4D">● Active Pipelines</text>
+  </g>
+</svg>

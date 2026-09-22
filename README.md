@@ -119,20 +119,24 @@
 
 ## GitHub Dashboard & Analytics
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=codebug53&theme=github-dark&bg_color=0d1117&color=ff4d4d&line=38bdf8&point=ff4d4d&area=true&hide_border=true" width="100%" alt="Activity Graph" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/codebug53/codebug53/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub Contribution Grid Snake" />
+</div>
+
+<br />
 
 <table width="100%" border="0">
   <tr>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api?username=codebug53&show_icons=true&theme=dark&bg_color=0d1117&title_color=38bdf8&icon_color=ff4d4d&text_color=c9d1d9&border_color=30363d" width="100%" alt="GitHub Stats" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=codebug53&theme=dark&background=0d1117&border=30363d&stroke=38bdf8&ring=ff4d4d&fire=ff4d4d&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" width="100%" alt="GitHub Streak Stats" />
     </td>
     <td width="50%" align="center" valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=codebug53&layout=compact&theme=dark&bg_color=0d1117&title_color=38bdf8&icon_color=ff4d4d&text_color=c9d1d9&border_color=30363d&hide=html,css" width="100%" alt="Top Languages" />
+      <img src="./assets/system-metrics.svg" width="100%" alt="System Architecture Metrics" />
     </td>
   </tr>
 </table>
+
+<br />
 
 <div align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution City" />
