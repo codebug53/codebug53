@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero-banner.svg" width="100%" alt="Mahammad Azhar - Hero Banner" />
+  <img src="./assets/hero-banner.svg" width="100%" alt="Tadimarri Mahammad Azhar - Hero Banner" />
   
   <br />
 
